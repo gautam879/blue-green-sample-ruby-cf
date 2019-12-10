@@ -1,0 +1,7 @@
+applications:
+- name: new-site
+  memory: 256m
+  disk_quota: 256m
+  path: ./new/
+  routes:
+    - route: blue-green-69R3C55LGBZ1469J.cfapps.io
